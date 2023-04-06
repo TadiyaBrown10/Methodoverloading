@@ -8,21 +8,17 @@ namespace MethodOverloading
         {
             Console.WriteLine("Hello World!");
         }
-        public static int Add2(int a, int b)
+        public static int Add(int a, int b)
         {
             return a + b;
         }
 
-        public static int Add3(int x, int y)
+        public static decimal Add(decimal x, decimal y)
         {
             return x + y;
 
         }
 
-        public static int add(int c, int d)
-        {
-            return c + d;
-        }
 
         public static string Add(int c, int d, bool checkit)
         {
